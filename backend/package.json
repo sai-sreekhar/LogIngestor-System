@@ -1,0 +1,28 @@
+{
+  "name": "Dyte-Backend",
+  "version": "1.0.0",
+  "description": "Dyte Backend Task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debug": "node inspect app.js"
+  },
+  "repository": "https://github.com/sai-sreekhar/Dyte-Backend.git",
+  "author": "sai-sreekhar <sai.sreekhar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-firehose": "^3.451.0",
+    "@aws-sdk/client-opensearch": "^3.454.0",
+    "@fastify/cors": "^8.4.1",
+    "@fastify/jwt": "^7.2.3",
+    "@fastify/mongodb": "^8.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-plugin": "^4.5.1",
+    "fetch": "^1.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1"
+  }
+}
